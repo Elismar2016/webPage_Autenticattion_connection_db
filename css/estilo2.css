@@ -1,0 +1,31 @@
+﻿*{margin:0; padding:0;}/* limpando margem */
+body{	background:#ccc;color:#fff;}/* alterando o fundo padrao outra cor */
+
+#header{top:0px; padding:4px;background:#069;width:100%; height:50px; text-align:center; text-decoration:none;color:#fff;}
+#header a{ text-decoration:none; color:#fff;}
+#header a:hover{ box-shadow: 1px 1px 1px #f1f1f1;color:#b3ffff;}
+#valor{left:0;padding:0px;background:#666;}
+#footer{ position:relative; clear:both;padding:5px;background:#090;width:100%; height:50px; bottom:0; text-align:center;}
+div.menuIcon { width: 35px;
+     height: 4px;
+     background-color: white;
+     margin: 6px 6px;
+}
+div.menu{ width: 90px;
+     height: 90px;
+     background-color: white;
+     margin: 0px 0px;
+	 clear:both;
+	 position:relative;
+	 display:none;
+	 opacity:3;
+}
+/*#nav {margin:0; padding:0; float:left;}/* limpando margem da lista e posicionando a esquerda */
+#nav li{list-style:none; background:#fff; width:200px; border-bottom:1px solid #666;}/* retira o marcador, muda o fundo do texto da lista, dimenciona em 250  e borda inferior solido cor 666 */
+#nav li a{ display:block;padding:8px; border-left:4px solid #444; text-decoration:none; box-shadow:4px 4px 5px #ccc; color:#ccc;}/* mostra o link em bloco , remove o sobrelinha e borda esq de 4px azul sombra e texto em cinza */
+#nav li a:hover{ border-radius: 0 50px 50px 0; width:280px; border-left:4px solid #ccc; background:#444;}/* muda a borda esquerda e o fundo do link quando passar o mouse */
+#nav li ul { display:none;}/* camufla , o none é muito usado para registro no corpo da pagina*/
+#nav li:hover ul{ display:block;}/* mostra o sub titulo quando passar o mouse */
+#nav li:hover ul li{ background:#333;}/* muda o fundo do sub titulo quando passar o mouse */
+#nav li:hover ul li a{ color:#ccc;}/* muda a cor do texto do sub titulo quando passar o mouse */
+#nav li:hover ul li a:hover{ background:#222; border-left: 4px solid #900;}
